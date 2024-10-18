@@ -1,9 +1,9 @@
-ADR Tools
-=========
+ADR Tools for AsciiDoctor
+=========================
 
 A command-line tool for working with a log of [Architecture Decision Records][ADRs] (ADRs).
 
-This for uses the AsciiDoctor format be default instead of Markddown.
+This for uses the AsciiDoctor format by default instead of Markddown.
 
 
 [![Build Status](https://travis-ci.org/npryce/adr-tools.svg?branch=master)](https://travis-ci.org/npryce/adr-tools)
