@@ -1,0 +1,20 @@
+=== 2. Use AsciiDoctor file format
+
+Date: 2024-10-18
+
+Status::
+
+Accepted
+
+Context::
+
+Many software projects use the AsciiDoctor markup language for writing technical documentation.
+Although adr-tools provide a templating system, it is error prone to change all the file endings from md to adoc in script files.
+
+Decision::
+
+A fork of adr-tools shall provide adoc support out of the box.
+
+Consequences::
+
+Alternatively, a set of overlay files that override templates and script files could be provided. This however needs to be stored and maintained. Overlay files may get stale. Another alternative would be to contribute better adoc support in the original project. Yet, it is uncertain whether these changes will be accepted.
