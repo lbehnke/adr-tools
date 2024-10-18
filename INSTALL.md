@@ -1,30 +1,6 @@
 Installation
 ============
 
-
-
-Homebrew (MacOS X)
-------------------
-
-Mac OS X users can install with [Homebrew](https://brew.sh):
-
-    brew install adr-tools
-
-ASDF-VM (Linux, MacOS X)
-------------------------
-
-ADR-Tools can be installed from the [ASDF-VM version manager](https://github.com/asdf-vm/asdf).
-
-From a Release Package (Linux, MacOS X)
----------------------------------------
-
-You can install a released package:
-
-1. Download a zip or tar.gz package from the [releases page](https://github.com/npryce/adr-tools/releases)
-2. Unzip / untar the package
-3. Add the 'src/' subdirectory to your PATH
-
-
 From Git (Linux, MacOS X)
 -------------------------
 
@@ -34,7 +10,7 @@ You can install with Git, if you want to be on the bleeding edge:
 2. Add the `src/` subdirectory to your PATH.
 
 
-Windows 10
+Windows 11
 ----------
 
 ### Git for Windows: git bash
